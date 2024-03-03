@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>1055 Makeup Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Makeup Assignment</h1>
+        <p>Each student must finish this build, so user's can toggle each question/article opened or closed</p>
+        <p>HTML/CSS has already been written and provided, and the basics of the JS included.</p>
+    </header>
+
+    <main class="questions">
+        <!-- This question defaults to OPEN or ACTIVE on page load -->
+        <article class="active">
+            <div class="title">
+                <h2>How much is this assignment worth?</h2>
+                <button type="button" class="btn">
+                    <span class="plus-icon">+</span>
+                    <span class="minus-icon">-</span>
+                </button>
+            </div>
+            <div class="text">
+                <p>
+                    10% of your final grade! Or 10 points.
+                    It will be applied to whatever assignment you currently have the lowest grade on,
+                    between HM#1 and the music mixer check in.
+                </p>
+                <p>
+                    Because of this, your final grade might look confusing; If it gets applied to the music mixer
+                    check in, you could get end up with a "perfect" grade, since that assignment is worth 10%
+                    of your final grade.
+                </p>
+                <p>
+                    However, if your lowest grade is HM#1, the "highest" your grade will be converted to is 50%,
+                    since HM#1 is worth 20%, or 20 points of your final grade.
+                </p>
+            </div>
+        </article>
+
+        <!-- This question defaults to CLOSED or INACTIVE on page load -->
+        <article>
+            <div class="title">
+                <h2>How long should it take me to complete this assignment?</h2>
+                <button type="button" class="btn">
+                    <span class="plus-icon">+</span>
+                    <span class="minus-icon">-</span>
+                </button>
+            </div>
+            <div class="text">
+                <p>Less than a couple hours.</p>
+                <p>All the HTML/CSS is done, and you SHOULD NOT have to touch it.</p>
+                <p>You should ONLY have to add some JS logic.</p>
+                <p>And even then - this can be built with 3 lines added to the current JS file.</p>
+            </div>
+        </article>
+
+        <!-- This question defaults to CLOSED or INACTIVE on page load -->
+        <article>
+            <div class="title">
+                <h2>When's the due date?</h2>
+                <button type="button" class="btn">
+                    <span class="plus-icon">+</span>
+                    <span class="minus-icon">-</span>
+                </button>
+            </div>
+            <div class="text">
+                <p>
+                    <strong>Monday, March 4th @ 5PM (EST).</strong>
+                </p>
+                <p>
+                    That gives you a little under a week to complete this!
+                </p>
+                <p>
+                    You can submit this into the "Makeup Assignment" Submission folder on FOL.
+                </p>
+                <p>
+                    <strong>NOTE:</strong> There WILL NOT be any extensions or late submission allowed on this assignment.
+                    If you don't think you can complete this in a week, then your grades will stay as they are.
+                </p>
+            </div>
+        </article>
+    </main>
+	<script src="js/main.js"></script>
+</body>
+</html>
